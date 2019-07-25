@@ -1,0 +1,19 @@
+/* Imimitation of browser frame for site images */
+.browser {
+	/* background-color: rgb(218, 218, 218); */
+	background-color: rgb(66, 66, 66);
+	border-radius: 6px;
+	box-shadow: 0 8px 25px 4px rgb(0, 0, 0, .2);
+}
+
+.browser img{
+  	margin-top: 16px
+}
+
+.browser::before {
+	content: url('/browser-btn.svg');
+	z-index: 2;
+	position: absolute;
+	top: -6px;
+	left: 4px;
+}

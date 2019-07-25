@@ -1,0 +1,38 @@
+
+a:link, .nav a:visited {
+	color: #383840;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	border-bottom-color: rgba(48,53,54,0.3);
+}
+a:visited {
+	color: #85479F;
+	border-bottom-color: rgba(133,71,159,0.3);
+}
+a:active, a:hover, .nav a:active, .nav a:hover {
+	color: #004DEF;
+	border-bottom-color: rgba(0,77,239,0.3);
+}
+
+.white a {
+	color: #fff;
+	border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.white a:active, .white a:hover {
+	color: rgba(255,255,255,0.8);
+	border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.white a:visited {
+	color: #fff;
+	border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.activeItem {
+	color: #383840 !important;
+	border-bottom: none !important;
+	border-left: 4px solid #004DEF;
+	margin-left: -36px;
+	padding-left: 32px;
+}
